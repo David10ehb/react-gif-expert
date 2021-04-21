@@ -7,11 +7,7 @@ export const getGif = async (category) => {
         id: img.id,
         title: img.title,
         slug: img.slug,
-        img: {
-          original: img.images.original,
-          downsized_large: img.images.downsized_large,
-          downsized_medium: img.images.downsized_medium
-        },
+        img: img.images.downsized_medium.url,
         url: img.url,
         type: img.type,
       }

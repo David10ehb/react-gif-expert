@@ -7,6 +7,7 @@ const AddCategory = ({ setcategories }) => {
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
+    console.log('aqui para las pruebas');
   }
 
   const handleSubmit = (e) => {
@@ -20,6 +21,7 @@ const AddCategory = ({ setcategories }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <p>mundo</p>
       <input
         type="text"
         value={inputValue}

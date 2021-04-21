@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas al component AddCategory comprobando wrappe 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+    mundo
+  </p>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;
